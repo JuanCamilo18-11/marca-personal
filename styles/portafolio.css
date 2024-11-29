@@ -23,16 +23,16 @@
 
 /* Proyectos Section */
 #projects {
-    padding: 2rem 0; /* Elimina el fondo al mantener solo el espaciado interno */
+    padding: 2rem 0; 
     text-align: center;
     max-width: 1200px;
-    margin: 0 auto; /* Centrar el contenido */
+    margin: 0 auto; 
 }
 
 #projects h2 {
-    font-size: 2rem; /* Mismo tamaño que el de "Habilidades Clave" y "Objetivo Profesional" */
+    font-size: 2rem; 
     color: #333;
-    margin-bottom: 1.5rem; /* Igual espaciado que en "Habilidades Clave" */
+    margin-bottom: 1.5rem;
 }
 
 .projects-grid {
@@ -77,16 +77,16 @@
 
 /* Why Invest Section */
 #why-invest {
-    padding: 2rem 0; /* Elimina el fondo al mantener solo el espaciado interno */
+    padding: 2rem 0; 
     text-align: center;
     max-width: 1200px;
-    margin: 0 auto; /* Centrar el contenido */
+    margin: 0 auto; 
 }
 
 #why-invest h2 {
-    font-size: 2rem; /* Mismo tamaño que el de "Habilidades Clave" y "Objetivo Profesional" */
+    font-size: 2rem; 
     color: #333;
-    margin-bottom: 1.5rem; /* Igual espaciado que en "Habilidades Clave" */
+    margin-bottom: 1.5rem; 
 }
 
 .why-invest-grid {
