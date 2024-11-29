@@ -2,7 +2,7 @@
 #hero {
     position: relative;
     height: 300px;
-    background-image: url("../images/contacto.jpg"); /* Reemplaza con la ruta de tu imagen */
+    background-image: url("../images/contacto.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -15,9 +15,9 @@
 }
 
 #hero .hero-content h1 {
-    font-size: 4rem; /* Mismo tamaño que el título de portafolio */
+    font-size: 4rem; 
     font-weight: bold;
-    color: white; /* Color del texto ajustado a blanco */
+    color: white; 
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
 }
 
@@ -64,7 +64,7 @@
 }
 
 .contact-column ul li i {
-    color: #ff6f00; /* Naranja */
+    color: #ff6f00;
     margin-right: 0.5rem;
 }
 
