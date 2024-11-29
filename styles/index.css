@@ -1,0 +1,154 @@
+/* Hero Section */
+#hero {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 70vh; /* Ajustar la altura a un 70% de la altura de la ventana */
+    padding: 0 2rem; /* Añadimos un margen interno horizontal */
+    box-sizing: border-box;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre las columnas */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    gap: 2rem; /* Espaciado entre texto e imagen */
+}
+
+.hero-text {
+    flex: 1; /* El texto ocupará el espacio disponible */
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.hero-text h2 {
+    font-size: 1.8rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff6f00;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #e65a00;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centra la imagen dentro de su columna */
+    align-items: center;
+    overflow: hidden; /* Evita que la imagen se desborde */
+}
+
+.hero-image img {
+    width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+    height: 100%; /* Hace que la imagen ocupe el 100% del alto del contenedor */
+    max-width: 450px; /* Aumenta el tamaño máximo de la imagen */
+    max-height: 450px; /* Limita la altura máxima */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover; /* Ajusta la imagen para que llene el contenedor sin deformarse */
+}
+
+/* About Me Section */
+#about-me {
+    padding: 2rem 0; /* Mantiene espaciado sin fondo ni bordes */
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Cambios para el título de "Objetivo Profesional" */
+#about-me h2 {
+    font-size: 2rem; /* Igual que el de "Habilidades Clave" */
+    color: #333;
+    margin-bottom: 1.5rem; /* Añadir un margen como en "Habilidades Clave" */
+}
+
+/* Cambios para el texto que acompaña al título de "Objetivo Profesional" */
+#about-me p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: center; /* Centrar el texto, igual que en el Hero */
+    font-weight: 400; /* Igual que en el Hero */
+    line-height: 1.6; /* Mejorar la legibilidad */
+}
+
+/* Key Skills Section */
+#key-skills, #soft-skills {
+    padding: 2rem 0; /* Espaciado interno sin fondo ni bordes */
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#key-skills h2, #soft-skills h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Grid Layout for Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Cards */
+.card {
+    background: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card i {
+    font-size: 2.5rem;
+    color: #ff6f00;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+}
