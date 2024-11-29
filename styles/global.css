@@ -9,10 +9,10 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: #333;
-    padding: 0; /* Elimina el padding que crea los espacios arriba y abajo */
-    margin: 0; /* Asegura que no haya márgenes no deseados */
-    height: 50px; /* Establece una altura consistente */
-    align-items: center; /* Centra los elementos verticalmente dentro del navbar */
+    padding: 0; 
+    margin: 0; 
+    height: 50px; 
+    align-items: center; 
 }
 
 nav ul li {
@@ -31,12 +31,12 @@ h1 {
 }
 
 .info i {
-    color: #ff6f00; /* Naranja */
+    color: #ff6f00;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333; /* Mismo color que el navbar */
+    background-color: #333; 
     color: white;
     padding: 2rem 1rem;
     margin-top: 2rem;
@@ -45,23 +45,23 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center; /* Centra las columnas horizontalmente */
+    justify-content: center; 
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: center; /* Alinear contenido centrado */
-    flex-wrap: wrap; /* Asegura que las columnas se ajusten en pantallas pequeñas */
+    text-align: center; 
+    flex-wrap: wrap; 
 }
 
 .footer-column {
     flex: 1;
-    max-width: 300px; /* Tamaño máximo de cada columna */
+    max-width: 300px; 
 }
 
 .footer-column h3 {
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    color: #ff6f00; /* Color naranja para títulos */
+    color: #ff6f00; 
 }
 
 .footer-column ul {
@@ -72,7 +72,7 @@ footer {
 
 .footer-column ul li {
     margin-bottom: 0.5rem;
-    text-align: center; /* Centra cada elemento de la lista */
+    text-align: center; 
 }
 
 .footer-column ul li a {
@@ -87,12 +87,12 @@ footer {
 
 .footer-column ul li i {
     margin-right: 0.5rem;
-    color: #ff6f00; /* Íconos en naranja */
+    color: #ff6f00; 
 }
 
 /* Footer Bottom Section */
 .footer-bottom {
-    border-top: 1px solid #555; /* Línea separadora */
+    border-top: 1px solid #555; 
     padding-top: 1rem;
     margin-top: 1rem;
 }
