@@ -2,24 +2,24 @@
 #hero {
     background-color: #f9f9f9;
     display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente */
-    height: 70vh; /* Ajustar la altura a un 70% de la altura de la ventana */
-    padding: 0 2rem; /* Añadimos un margen interno horizontal */
+    align-items: center; 
+    justify-content: center; 
+    height: 70vh; 
+    padding: 0 2rem; 
     box-sizing: border-box;
 }
 
 .hero-container {
     display: flex;
-    justify-content: space-between; /* Espaciado entre las columnas */
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Limita el ancho máximo del contenedor */
-    gap: 2rem; /* Espaciado entre texto e imagen */
+    max-width: 1200px;
+    gap: 2rem; 
 }
 
 .hero-text {
-    flex: 1; /* El texto ocupará el espacio disponible */
+    flex: 1; 
     text-align: center;
 }
 
@@ -60,48 +60,48 @@
 .hero-image {
     flex: 1;
     display: flex;
-    justify-content: center; /* Centra la imagen dentro de su columna */
+    justify-content: center; 
     align-items: center;
-    overflow: hidden; /* Evita que la imagen se desborde */
+    overflow: hidden; 
 }
 
 .hero-image img {
-    width: 100%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
-    height: 100%; /* Hace que la imagen ocupe el 100% del alto del contenedor */
-    max-width: 450px; /* Aumenta el tamaño máximo de la imagen */
-    max-height: 450px; /* Limita la altura máxima */
-    border-radius: 50%; /* Hace la imagen circular */
-    object-fit: cover; /* Ajusta la imagen para que llene el contenedor sin deformarse */
+    width: 100%; 
+    height: 100%; 
+    max-width: 450px; 
+    max-height: 450px; 
+    border-radius: 50%; 
+    object-fit: cover; 
 }
 
 /* About Me Section */
 #about-me {
-    padding: 2rem 0; /* Mantiene espaciado sin fondo ni bordes */
+    padding: 2rem 0; 
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Cambios para el título de "Objetivo Profesional" */
+
 #about-me h2 {
-    font-size: 2rem; /* Igual que el de "Habilidades Clave" */
+    font-size: 2rem; 
     color: #333;
-    margin-bottom: 1.5rem; /* Añadir un margen como en "Habilidades Clave" */
+    margin-bottom: 1.5rem; 
 }
 
-/* Cambios para el texto que acompaña al título de "Objetivo Profesional" */
+
 #about-me p {
     font-size: 1.2rem;
     color: #666;
     margin-bottom: 2rem;
-    text-align: center; /* Centrar el texto, igual que en el Hero */
-    font-weight: 400; /* Igual que en el Hero */
-    line-height: 1.6; /* Mejorar la legibilidad */
+    text-align: center; 
+    font-weight: 400; 
+    line-height: 1.6; 
 }
 
 /* Key Skills Section */
 #key-skills, #soft-skills {
-    padding: 2rem 0; /* Espaciado interno sin fondo ni bordes */
+    padding: 2rem 0; 
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
